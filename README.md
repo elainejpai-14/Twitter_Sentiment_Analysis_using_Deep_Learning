@@ -10,11 +10,12 @@ This model performs sentiment analysis on Twitter data using a trained deep lear
 - Deep learning-based sentiment classification with **BiLSTM**
 - Visualization of sentiment distribution
 
-## Dataset
+## Datasets
 - The sentiment140 dataset from kaggle contains 1,600,000 tweets extracted using the twitter api.
 - The tweets have been annotated as (0 = negative, 4 = positive) and can be used to detect sentiment.
 - Data is preprocessed by removing stopwords, punctuation, and performing tokenization.
-- Link to dataset: https://www.kaggle.com/datasets/kazanova/sentiment140
+- Link to sentiment140 dataset: https://www.kaggle.com/datasets/kazanova/sentiment140
+- List of english contractions: https://www.kaggle.com/datasets/ishivinal/contractions
 
 ## Technologies Used
 - Python
@@ -35,7 +36,7 @@ Clone the repository and install the required dependencies:
 ## Usage
 Run the Jupyter Notebook:
 ```bash
- jupyter notebook Twitter_Sentiment_Analysis_using_Deep Learning.ipynb
+ jupyter notebook Twitter_Sentiment_Analysis_using_Deep_Learning.ipynb
 ```
 Follow the steps in the notebook to preprocess data, train the model, and visualize results.
 
